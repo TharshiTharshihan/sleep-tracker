@@ -27,7 +27,7 @@ const ContactPage = () => {
             const message = (
               document.getElementById('message') as HTMLTextAreaElement
             )?.value;
-            const mailtoLink = `mailto:tharshian2000@gmail.com?subject=Message from ${name}&body=Email: ${email}%0D%0A%0D%0A${message}`;
+            const mailtoLink = `mailto:tharshihan2000@gmail.com?subject=Message from ${name}&body=Email: ${email}%0D%0A%0D%0A${message}`;
             window.location.href = mailtoLink;
           }}
         >
@@ -96,11 +96,11 @@ const ContactPage = () => {
         <div className='max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center'>
           <div>
             <h3 className='text-xl font-bold mb-2'>Email</h3>
-            <p className='text-gray-600'>tharshian2000@gmail.com</p>
+            <p className='text-gray-600'>tharshihan2000@gmail.com</p>
           </div>
           <div>
             <h3 className='text-xl font-bold mb-2'>Phone</h3>
-            <p className='text-gray-600'>+1 (123) 456-7890</p>
+            <p className='text-gray-600'>+94 (75) 844 3025</p>
           </div>
           <div>
             <h3 className='text-xl font-bold mb-2'>Address</h3>
